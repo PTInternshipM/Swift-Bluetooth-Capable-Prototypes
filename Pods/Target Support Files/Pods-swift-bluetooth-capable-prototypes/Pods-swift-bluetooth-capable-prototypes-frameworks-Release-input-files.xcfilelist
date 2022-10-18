@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BluetoothCentral/BluetoothCentral.framework
+${BUILT_PRODUCTS_DIR}/BluetoothKit/BluetoothKit.framework
+${BUILT_PRODUCTS_DIR}/CmdBluetooth/CmdBluetooth.framework
+${BUILT_PRODUCTS_DIR}/ObservationLite/ObservationLite.framework

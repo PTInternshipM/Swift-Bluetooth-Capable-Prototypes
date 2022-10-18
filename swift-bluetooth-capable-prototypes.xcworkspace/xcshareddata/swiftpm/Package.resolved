@@ -1,0 +1,95 @@
+{
+  "pins" : [
+    {
+      "identity" : "combinecorebluetooth",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StarryInternet/CombineCoreBluetooth",
+      "state" : {
+        "revision" : "05df53532ba6eee30df83a20dd22c447bc223f8a",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "ios-corebluetooth-mock",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git",
+      "state" : {
+        "revision" : "0a1a70fdb19d2863690ddf9833f0a4ebe7a5ddbc",
+        "version" : "0.13.0"
+      }
+    },
+    {
+      "identity" : "littlebluetooth",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DrAma999/LittleBlueTooth",
+      "state" : {
+        "revision" : "c115d1a497d9e7a0015bcc967c5b1cfa267e8a44",
+        "version" : "0.7.3"
+      }
+    },
+    {
+      "identity" : "rvs_bluethoth",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RiftValleySoftware/RVS_BlueThoth.git",
+      "state" : {
+        "revision" : "13d6207348570df50ae6820a89f990d9481a726b",
+        "version" : "1.9.2"
+      }
+    },
+    {
+      "identity" : "rvs_generic_swift_toolbox",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:RiftValleySoftware/RVS_Generic_Swift_Toolbox.git",
+      "state" : {
+        "revision" : "6e12bdb89aed0faab848f8688cd750ddf9a57bc4",
+        "version" : "1.11.0"
+      }
+    },
+    {
+      "identity" : "rxbluetoothkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Polidea/RxBluetoothKit",
+      "state" : {
+        "revision" : "20a0736b5f53dedd291254236a99509d2be1855f",
+        "version" : "6.0.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "cec68169a048a079f461ba203fe85636548d7a89",
+        "version" : "5.1.3"
+      }
+    },
+    {
+      "identity" : "sensors-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/codeinversion/sensors-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "334b9a4636501bc10daae26ecef23dd667fc3054"
+      }
+    },
+    {
+      "identity" : "signals",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/artman/Signals",
+      "state" : {
+        "revision" : "e792eb51a64f85d043d17f09f6323b803b9f73b8",
+        "version" : "6.1.0"
+      }
+    },
+    {
+      "identity" : "swiftybluetooth",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jordanebelanger/SwiftyBluetooth",
+      "state" : {
+        "revision" : "7f279a22db5d66a6214c18352f7c531cfeb804fb",
+        "version" : "3.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

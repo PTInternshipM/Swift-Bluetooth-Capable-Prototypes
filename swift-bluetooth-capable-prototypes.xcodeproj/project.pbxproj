@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,14 +11,49 @@
 		370BE04828FEC4630007A635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE04728FEC4630007A635 /* ContentView.swift */; };
 		370BE04A28FEC4630007A635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BE04928FEC4630007A635 /* Assets.xcassets */; };
 		370BE04D28FEC4630007A635 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BE04C28FEC4630007A635 /* Preview Assets.xcassets */; };
+		370BE05528FEC7460007A635 /* LittleBlueTooth in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE05428FEC7460007A635 /* LittleBlueTooth */; };
+		370BE05828FEC7560007A635 /* CombineCoreBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE05728FEC7560007A635 /* CombineCoreBluetooth */; };
+		370BE05B28FEC76E0007A635 /* SwiftyBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE05A28FEC76E0007A635 /* SwiftyBluetooth */; };
+		370BE05E28FEC7850007A635 /* RxBluetoothKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE05D28FEC7850007A635 /* RxBluetoothKit */; };
+		370BE06128FEC7AD0007A635 /* RVS_BlueThoth in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE06028FEC7AD0007A635 /* RVS_BlueThoth */; };
+		370BE06428FEC7D80007A635 /* SwiftySensors in Frameworks */ = {isa = PBXBuildFile; productRef = 370BE06328FEC7D80007A635 /* SwiftySensors */; };
+		370BE06928FEC81D0007A635 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE06828FEC81D0007A635 /* Device.swift */; };
+		370BE06B28FEC8270007A635 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE06A28FEC8270007A635 /* DeviceListView.swift */; };
+		370BE06D28FEC8430007A635 /* FrameworkDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE06C28FEC8430007A635 /* FrameworkDeviceList.swift */; };
+		370BE06F28FEC84C0007A635 /* SwiftyBluetoothDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE06E28FEC84C0007A635 /* SwiftyBluetoothDeviceList.swift */; };
+		370BE07128FEC8560007A635 /* CombineCoreBluetoothDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07028FEC8560007A635 /* CombineCoreBluetoothDeviceList.swift */; };
+		370BE07328FEC85E0007A635 /* LittleBlueToothDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07228FEC85E0007A635 /* LittleBlueToothDeviceList.swift */; };
+		370BE07528FEC8690007A635 /* RxBluetoothKitDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07428FEC8690007A635 /* RxBluetoothKitDeviceList.swift */; };
+		370BE07728FEC8740007A635 /* BluetoothKitDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07628FEC8740007A635 /* BluetoothKitDeviceList.swift */; };
+		370BE07928FEC87E0007A635 /* RVSBlueThothDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07828FEC87E0007A635 /* RVSBlueThothDeviceList.swift */; };
+		370BE07B28FEC88F0007A635 /* SwiftySensorsDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07A28FEC88F0007A635 /* SwiftySensorsDeviceList.swift */; };
+		370BE07D28FEC89E0007A635 /* BluetoothCentralDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07C28FEC89E0007A635 /* BluetoothCentralDeviceList.swift */; };
+		370BE07F28FEC8AB0007A635 /* CmdBluetoothDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE07E28FEC8AB0007A635 /* CmdBluetoothDeviceList.swift */; };
+		C12C19CBEB4EBDC572AE0522 /* Pods_swift_bluetooth_capable_prototypes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594BEC2606140CF60185E38C /* Pods_swift_bluetooth_capable_prototypes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B3C3DD35CAFB55AAEB5A705 /* Pods-swift-bluetooth-capable-prototypes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-bluetooth-capable-prototypes.debug.xcconfig"; path = "Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes.debug.xcconfig"; sourceTree = "<group>"; };
 		370BE04228FEC4630007A635 /* swift-bluetooth-capable-prototypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-bluetooth-capable-prototypes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		370BE04528FEC4630007A635 /* swift_bluetooth_capable_prototypesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_bluetooth_capable_prototypesApp.swift; sourceTree = "<group>"; };
 		370BE04728FEC4630007A635 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		370BE04928FEC4630007A635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370BE04C28FEC4630007A635 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		370BE06828FEC81D0007A635 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		370BE06A28FEC8270007A635 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		370BE06C28FEC8430007A635 /* FrameworkDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDeviceList.swift; sourceTree = "<group>"; };
+		370BE06E28FEC84C0007A635 /* SwiftyBluetoothDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyBluetoothDeviceList.swift; sourceTree = "<group>"; };
+		370BE07028FEC8560007A635 /* CombineCoreBluetoothDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreBluetoothDeviceList.swift; sourceTree = "<group>"; };
+		370BE07228FEC85E0007A635 /* LittleBlueToothDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBlueToothDeviceList.swift; sourceTree = "<group>"; };
+		370BE07428FEC8690007A635 /* RxBluetoothKitDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBluetoothKitDeviceList.swift; sourceTree = "<group>"; };
+		370BE07628FEC8740007A635 /* BluetoothKitDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothKitDeviceList.swift; sourceTree = "<group>"; };
+		370BE07828FEC87E0007A635 /* RVSBlueThothDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVSBlueThothDeviceList.swift; sourceTree = "<group>"; };
+		370BE07A28FEC88F0007A635 /* SwiftySensorsDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySensorsDeviceList.swift; sourceTree = "<group>"; };
+		370BE07C28FEC89E0007A635 /* BluetoothCentralDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCentralDeviceList.swift; sourceTree = "<group>"; };
+		370BE07E28FEC8AB0007A635 /* CmdBluetoothDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CmdBluetoothDeviceList.swift; sourceTree = "<group>"; };
+		370BE08028FEC9CF0007A635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		594BEC2606140CF60185E38C /* Pods_swift_bluetooth_capable_prototypes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_bluetooth_capable_prototypes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DB5351D4EAE6151EF2D06E /* Pods-swift-bluetooth-capable-prototypes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-bluetooth-capable-prototypes.release.xcconfig"; path = "Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C19CBEB4EBDC572AE0522 /* Pods_swift_bluetooth_capable_prototypes.framework in Frameworks */,
+				370BE05E28FEC7850007A635 /* RxBluetoothKit in Frameworks */,
+				370BE06128FEC7AD0007A635 /* RVS_BlueThoth in Frameworks */,
+				370BE05828FEC7560007A635 /* CombineCoreBluetooth in Frameworks */,
+				370BE06428FEC7D80007A635 /* SwiftySensors in Frameworks */,
+				370BE05528FEC7460007A635 /* LittleBlueTooth in Frameworks */,
+				370BE05B28FEC76E0007A635 /* SwiftyBluetooth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +79,8 @@
 			children = (
 				370BE04428FEC4630007A635 /* swift-bluetooth-capable-prototypes */,
 				370BE04328FEC4630007A635 /* Products */,
+				8171B4434C68EC1178615F95 /* Pods */,
+				AAD62A8DB6D8F573DB4CFF46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +95,10 @@
 		370BE04428FEC4630007A635 /* swift-bluetooth-capable-prototypes */ = {
 			isa = PBXGroup;
 			children = (
+				370BE08028FEC9CF0007A635 /* Info.plist */,
+				370BE06728FEC8100007A635 /* ViewModels */,
+				370BE06628FEC80A0007A635 /* Models */,
+				370BE06528FEC8050007A635 /* Views */,
 				370BE04528FEC4630007A635 /* swift_bluetooth_capable_prototypesApp.swift */,
 				370BE04728FEC4630007A635 /* ContentView.swift */,
 				370BE04928FEC4630007A635 /* Assets.xcassets */,
@@ -67,6 +115,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		370BE06528FEC8050007A635 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				370BE06A28FEC8270007A635 /* DeviceListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		370BE06628FEC80A0007A635 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				370BE06828FEC81D0007A635 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		370BE06728FEC8100007A635 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				370BE06C28FEC8430007A635 /* FrameworkDeviceList.swift */,
+				370BE06E28FEC84C0007A635 /* SwiftyBluetoothDeviceList.swift */,
+				370BE07028FEC8560007A635 /* CombineCoreBluetoothDeviceList.swift */,
+				370BE07228FEC85E0007A635 /* LittleBlueToothDeviceList.swift */,
+				370BE07428FEC8690007A635 /* RxBluetoothKitDeviceList.swift */,
+				370BE07628FEC8740007A635 /* BluetoothKitDeviceList.swift */,
+				370BE07828FEC87E0007A635 /* RVSBlueThothDeviceList.swift */,
+				370BE07A28FEC88F0007A635 /* SwiftySensorsDeviceList.swift */,
+				370BE07C28FEC89E0007A635 /* BluetoothCentralDeviceList.swift */,
+				370BE07E28FEC8AB0007A635 /* CmdBluetoothDeviceList.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8171B4434C68EC1178615F95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B3C3DD35CAFB55AAEB5A705 /* Pods-swift-bluetooth-capable-prototypes.debug.xcconfig */,
+				68DB5351D4EAE6151EF2D06E /* Pods-swift-bluetooth-capable-prototypes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAD62A8DB6D8F573DB4CFF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594BEC2606140CF60185E38C /* Pods_swift_bluetooth_capable_prototypes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +172,25 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370BE05028FEC4630007A635 /* Build configuration list for PBXNativeTarget "swift-bluetooth-capable-prototypes" */;
 			buildPhases = (
+				30AE9AC5ADD0583965C2A211 /* [CP] Check Pods Manifest.lock */,
 				370BE03E28FEC4630007A635 /* Sources */,
 				370BE03F28FEC4630007A635 /* Frameworks */,
 				370BE04028FEC4630007A635 /* Resources */,
+				EE173D7EE360A1040E918B3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "swift-bluetooth-capable-prototypes";
+			packageProductDependencies = (
+				370BE05428FEC7460007A635 /* LittleBlueTooth */,
+				370BE05728FEC7560007A635 /* CombineCoreBluetooth */,
+				370BE05A28FEC76E0007A635 /* SwiftyBluetooth */,
+				370BE05D28FEC7850007A635 /* RxBluetoothKit */,
+				370BE06028FEC7AD0007A635 /* RVS_BlueThoth */,
+				370BE06328FEC7D80007A635 /* SwiftySensors */,
+			);
 			productName = "swift-bluetooth-capable-prototypes";
 			productReference = 370BE04228FEC4630007A635 /* swift-bluetooth-capable-prototypes.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +211,7 @@
 				};
 			};
 			buildConfigurationList = 370BE03D28FEC4630007A635 /* Build configuration list for PBXProject "swift-bluetooth-capable-prototypes" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +219,14 @@
 				Base,
 			);
 			mainGroup = 370BE03928FEC4630007A635;
+			packageReferences = (
+				370BE05328FEC7460007A635 /* XCRemoteSwiftPackageReference "LittleBlueTooth" */,
+				370BE05628FEC7560007A635 /* XCRemoteSwiftPackageReference "CombineCoreBluetooth" */,
+				370BE05928FEC76E0007A635 /* XCRemoteSwiftPackageReference "SwiftyBluetooth" */,
+				370BE05C28FEC7850007A635 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */,
+				370BE05F28FEC7AD0007A635 /* XCRemoteSwiftPackageReference "RVS_BlueThoth" */,
+				370BE06228FEC7D80007A635 /* XCRemoteSwiftPackageReference "sensors-swift" */,
+			);
 			productRefGroup = 370BE04328FEC4630007A635 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +248,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30AE9AC5ADD0583965C2A211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-bluetooth-capable-prototypes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE173D7EE360A1040E918B3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-bluetooth-capable-prototypes/Pods-swift-bluetooth-capable-prototypes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		370BE03E28FEC4630007A635 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370BE06928FEC81D0007A635 /* Device.swift in Sources */,
+				370BE07728FEC8740007A635 /* BluetoothKitDeviceList.swift in Sources */,
+				370BE07D28FEC89E0007A635 /* BluetoothCentralDeviceList.swift in Sources */,
+				370BE07F28FEC8AB0007A635 /* CmdBluetoothDeviceList.swift in Sources */,
 				370BE04828FEC4630007A635 /* ContentView.swift in Sources */,
+				370BE07B28FEC88F0007A635 /* SwiftySensorsDeviceList.swift in Sources */,
+				370BE07328FEC85E0007A635 /* LittleBlueToothDeviceList.swift in Sources */,
+				370BE06F28FEC84C0007A635 /* SwiftyBluetoothDeviceList.swift in Sources */,
+				370BE07128FEC8560007A635 /* CombineCoreBluetoothDeviceList.swift in Sources */,
+				370BE06B28FEC8270007A635 /* DeviceListView.swift in Sources */,
+				370BE06D28FEC8430007A635 /* FrameworkDeviceList.swift in Sources */,
 				370BE04628FEC4630007A635 /* swift_bluetooth_capable_prototypesApp.swift in Sources */,
+				370BE07928FEC87E0007A635 /* RVSBlueThothDeviceList.swift in Sources */,
+				370BE07528FEC8690007A635 /* RxBluetoothKitDeviceList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,19 +431,25 @@
 		};
 		370BE05128FEC4630007A635 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3C3DD35CAFB55AAEB5A705 /* Pods-swift-bluetooth-capable-prototypes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-bluetooth-capable-prototypes/Preview Content\"";
+				DEVELOPMENT_TEAM = SVW5Z7PCXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-bluetooth-capable-prototypes/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "dit is een beschrijving";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = iets;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,19 +465,25 @@
 		};
 		370BE05228FEC4630007A635 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68DB5351D4EAE6151EF2D06E /* Pods-swift-bluetooth-capable-prototypes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swift-bluetooth-capable-prototypes/Preview Content\"";
+				DEVELOPMENT_TEAM = SVW5Z7PCXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-bluetooth-capable-prototypes/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "dit is een beschrijving";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = iets;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +519,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		370BE05328FEC7460007A635 /* XCRemoteSwiftPackageReference "LittleBlueTooth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DrAma999/LittleBlueTooth";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.3;
+			};
+		};
+		370BE05628FEC7560007A635 /* XCRemoteSwiftPackageReference "CombineCoreBluetooth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StarryInternet/CombineCoreBluetooth";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		370BE05928FEC76E0007A635 /* XCRemoteSwiftPackageReference "SwiftyBluetooth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jordanebelanger/SwiftyBluetooth";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+		370BE05C28FEC7850007A635 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Polidea/RxBluetoothKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		370BE05F28FEC7AD0007A635 /* XCRemoteSwiftPackageReference "RVS_BlueThoth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RiftValleySoftware/RVS_BlueThoth.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+		370BE06228FEC7D80007A635 /* XCRemoteSwiftPackageReference "sensors-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codeinversion/sensors-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		370BE05428FEC7460007A635 /* LittleBlueTooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE05328FEC7460007A635 /* XCRemoteSwiftPackageReference "LittleBlueTooth" */;
+			productName = LittleBlueTooth;
+		};
+		370BE05728FEC7560007A635 /* CombineCoreBluetooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE05628FEC7560007A635 /* XCRemoteSwiftPackageReference "CombineCoreBluetooth" */;
+			productName = CombineCoreBluetooth;
+		};
+		370BE05A28FEC76E0007A635 /* SwiftyBluetooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE05928FEC76E0007A635 /* XCRemoteSwiftPackageReference "SwiftyBluetooth" */;
+			productName = SwiftyBluetooth;
+		};
+		370BE05D28FEC7850007A635 /* RxBluetoothKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE05C28FEC7850007A635 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */;
+			productName = RxBluetoothKit;
+		};
+		370BE06028FEC7AD0007A635 /* RVS_BlueThoth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE05F28FEC7AD0007A635 /* XCRemoteSwiftPackageReference "RVS_BlueThoth" */;
+			productName = RVS_BlueThoth;
+		};
+		370BE06328FEC7D80007A635 /* SwiftySensors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 370BE06228FEC7D80007A635 /* XCRemoteSwiftPackageReference "sensors-swift" */;
+			productName = SwiftySensors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 370BE03A28FEC4630007A635 /* Project object */;
 }

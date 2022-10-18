@@ -1,0 +1,6 @@
+framework module BluetoothCentral {
+  umbrella header "BluetoothCentral-umbrella.h"
+
+  export *
+  module * { export * }
+}

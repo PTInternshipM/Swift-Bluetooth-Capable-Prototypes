@@ -1,0 +1,6 @@
+framework module ObservationLite {
+  umbrella header "ObservationLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+PODS:
+  - BluetoothCentral (1.0.0):
+    - ObservationLite
+  - BluetoothKit (0.4.0)
+  - CmdBluetooth (4.1.1)
+  - ObservationLite (1.0.1)
+
+DEPENDENCIES:
+  - BluetoothCentral (= 1.0.0)
+  - BluetoothKit (~> 0.4.0)
+  - CmdBluetooth (~> 4.1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BluetoothCentral
+    - BluetoothKit
+    - CmdBluetooth
+    - ObservationLite
+
+SPEC CHECKSUMS:
+  BluetoothCentral: d22698ecf4ea062c84e51c83a3dd6bc13aaa6369
+  BluetoothKit: 00e189e01ba765e2689c46fbd8d0ede62984441b
+  CmdBluetooth: fbd452e037644d062ebd554265d805bb136546b8
+  ObservationLite: 20b9b9bd0ff8dfaf5c242b25d4682b2517ae70d3
+
+PODFILE CHECKSUM: 67a552c8af229ade45afa6835106749cd7c4b7e0
+
+COCOAPODS: 1.11.3
